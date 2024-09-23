@@ -1,0 +1,335 @@
+body {
+    background-color: black;
+} 
+
+#container {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+#starting-title {
+    color: rgb(181, 180, 180);
+    font-family: "Playfair Display";
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 6.5px;
+    margin-bottom: 0%;
+
+}
+
+
+#contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+
+    gap: 30px;
+}
+
+.cont-child {
+
+    color: white;
+    margin-top: 22px;
+}
+
+.cont-child:hover {
+    color: orangered;
+}
+
+#heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#title {
+    text-align: center;
+    margin-top: 80px;
+}
+
+#img {
+    width: 800px;
+    height: 400px;
+
+}
+
+#imdiv {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: larger;
+    font-style: normal;
+    transform: scaleY(1.2);
+}
+
+.texts {
+    color: gray;
+    font-size: large;
+    position: relative;
+    margin-right: 140px;
+    margin-left: 180px;
+    margin-bottom: 60px;
+    line-height: 1.7;
+    font-family: "Playfair Display";
+}
+
+#lnk {
+    color: white;
+    text-decoration: underline;
+}
+
+u {
+    color: orangered;
+}
+
+#img-parant {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+#image1 {
+    width: 520px;
+    height: 280px;
+}
+
+#image2 {
+    width: 520px;
+    height: 280px;
+}
+
+#end-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#end {
+    color: gray;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#starting-title:hover {
+    color: orangered;
+
+}
+
+
+h4 {
+    letter-spacing: 6px;
+    font-size: 13px;
+    color: rgb(174, 170, 170);
+    line-height: 20px;
+    transform: scaleY(1.1);
+    font-family: sans-serif;
+}
+
+h1 {
+    color: aliceblue;
+    transform: scaleY(1.2);
+    font-family: "Playfair Display";
+    font-size: 40px;
+
+}
+
+#trademark {
+    margin-top: 0%;
+}
+
+.end {
+    color: aliceblue;
+
+}
+
+.end:hover {
+    color: orangered;
+    text-decoration: underline;
+}
+
+hr {
+    width: 1360px;
+    height: 0.5px;
+    background-color: rgb(55, 54, 54);
+    border: none;
+}
+
+.arrow_upward {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: end;
+    margin-top: -100px;
+    margin-right: 50px;
+
+}
+
+.arrow_upward:hover {
+    color: orangered;
+    text-decoration: none;
+}
+
+#content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+body {
+
+    font-family: "Playfair Display,serif";
+}
+
+.hover-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 60px;
+    align-items: center;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+}
+
+.hover-box {
+    display: none;
+    width: 240px;
+    height: 77px;
+    gap: 50px;
+    position: absolute;
+    background-color: #1f1f1f;
+    border: 1px solid #1f1f1f;
+    padding: 10px;
+    z-index: 1;
+}
+
+.hover-container:hover .hover-box {
+    display: block;
+}
+
+.link {
+    display: block;
+    color: white;
+    background-color: #1f1f1f;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+
+#collection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    gap: 5px;
+
+}
+
+#co {
+    margin-top: 15px;
+}
+
+#collection:hover {
+    color: orangered;
+}
+
+.link:hover {
+    color: orangered;
+}
+
+#candy {
+    margin-bottom: 20px;
+}
+
+#coffee-candy {
+    margin-top: 10px;
+}
+
+#end {
+    margin-bottom: 40px;
+}
+
+
+#circle {
+    
+    height: 50px;
+    width: 50px;
+    background-color: orangered;
+    border-radius: 50%;
+    
+}
+
+
+
+.anchor{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 13px;
+    left: 15px;
+    
+}
+
+   
+
+
+
+
+#last-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.end {
+    color: white;
+    margin-top: 20px;
+
+}
+.end:hover {
+    color: orangered;
+}
+
+#circle-para {
+    /* height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end; */
+    position: absolute;
+    left: 1400px;
+    height:  50px;
+    width: 50;
+    top: 2100px;
+
+}
+#circle-para:hover #circle{
+    background-color: white;
+}
+#circle-para:hover .anchor{
+    color: black;
+}
+
+
+
+
+
