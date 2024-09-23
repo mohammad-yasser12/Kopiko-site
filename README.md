@@ -9,3 +9,4 @@
 * **Basic navigation:** Includes links to home, products, and contact.
 * **Product showcase:** Displays a selection of Kopiko products.
 
+** Referance site - https://kopikousa.com/candy/
